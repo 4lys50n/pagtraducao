@@ -1,2 +1,2 @@
 ﻿# pagtraducao
-Projeto de uma pagina de simples de tradução de musica, com exemplo de tradução.
+Projeto em html, css e javascript de uma pagina de simples de tradução de musica, com exemplo de tradução.
