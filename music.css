@@ -1,0 +1,103 @@
+@import url(nav.css);
+@import url(footer.css);
+
+
+.main {
+    box-sizing: content-box;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#conteudo {
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#musica {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+#esconder {
+    display: none;
+}
+
+#hide {
+    display: none;
+}
+
+
+p {
+    margin-top: 10px;
+}
+
+
+.botaoBonito {
+    display: inline-block;
+    background-color: #29fd53;
+    height: 36px;
+    line-height: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 5px 5px 0px #000000;
+    border-radius: 30px;
+}
+
+body {
+    background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .imagem {
+        width: 350px;
+    }
+
+    .musica {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+
+    .imagem {
+        width: 300px;
+    }
+
+    .musica {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .imagem {
+        width: 150px;
+    }
+
+    .musica {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+    }
+}

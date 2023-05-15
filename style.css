@@ -1,0 +1,40 @@
+@import url(reset.css);
+@import url(nav.css);
+@import url(footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;900&display=swap');
+
+
+body {
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+}
+
+.container {
+
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+.conteudo_home{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 80px;
+
+
+}
+
+.video {
+
+    position: fixed;
+    width: 100%;
+    z-index: -3;
+
+}
